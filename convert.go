@@ -1,5 +1,5 @@
 package weight
 
-func KgToLb(n float64) LB {
+func KgtoLB(n KG) LB {
 	return LB(n * kgToLbRatio)
 }
